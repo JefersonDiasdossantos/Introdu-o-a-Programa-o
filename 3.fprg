@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 09:41:42 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA5OjMzOjU1ICI7MjM2MA=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA5OjQxOjQyICI7MTsyNDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <if expression="x=10">
+                <then>
+                    <if expression="x&gt;1000000">
+                        <then>
+                            <output expression="&quot;muito grande&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;pequeno&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <output expression="&quot;parabens&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;negativo ou neutro&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
