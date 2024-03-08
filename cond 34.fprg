@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Aluno"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-03-08 10:12:45 "/>
+        <attribute name="saved" value="2024-03-08 10:23:08 "/>
         <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjEwOjAzOjA5ICI7MjM1NQ=="/>
-        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjEwOjEyOjQ1ICI7MTsyNDYz"/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjEwOjIzOjA4ICI7MjsyNDY1"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -22,7 +22,22 @@
                         <then>
                             <output expression="&quot;imposto:&quot; &amp; salario *0.075" newline="True"/>
                         </then>
-                        <else/>
+                        <else>
+                            <if expression="salario &gt; 3751.06">
+                                <then>
+                                    <output expression="&quot;imposto:&quot; &amp; salario *0.15" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                            <if expression="salario &gt; 4468.89">
+                                <then>
+                                    <output expression="&quot;imposto:&quot; &amp; salario *0.225" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;imposto:&quot; &amp; salario *0.275" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
                     </if>
                 </else>
             </if>
