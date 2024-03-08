@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 10:02:38 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjA3OjUwOjI3ICI7MjM2Mw=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjEwOjAyOjM4ICI7NTsyNDY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="compra" type="Real" array="False" size=""/>
+            <input variable="compra"/>
+            <output expression="&quot;informe o ano&quot;" newline="True"/>
+            <if expression="compra &lt; 50">
+                <then>
+                    <assign variable="compra" expression="compra*0.9"/>
+                </then>
+                <else>
+                    <if expression="compra &lt; 100">
+                        <then>
+                            <assign variable="compra" expression="compra*0.85"/>
+                        </then>
+                        <else>
+                            <assign variable="compra" expression="compra*8"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;o produto foi comprado por: &quot;&amp; compra &amp; &quot;R&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
