@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 10:12:45 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjEwOjAzOjA5ICI7MjM1NQ=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjEwOjEyOjQ1ICI7MTsyNDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <input variable="salario"/>
+            <if expression="salario &lt; 1903.99">
+                <then>
+                    <output expression="&quot;isento&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="salario &lt; 2826.66">
+                        <then>
+                            <output expression="&quot;imposto:&quot; &amp; salario *0.075" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
