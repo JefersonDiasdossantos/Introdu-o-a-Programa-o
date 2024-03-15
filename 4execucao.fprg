@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 08:39:47 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA3OjUzOjI3ICI7MjM2NA=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA4OjM5OjQ3ICI7NjsyNDg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text=""/>
+            <declare name="j, i, numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;nforme um numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="j" start="1" end="numero" direction="inc" step="1">
+                <output expression="j" newline="False"/>
+            </for>
+            <assign variable="i" expression="1"/>
+            <while expression="i &lt;= numero">
+                <output expression="i &amp; &quot; &quot;" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
