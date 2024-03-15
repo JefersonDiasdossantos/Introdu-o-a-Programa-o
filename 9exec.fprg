@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 10:00:03 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA5OjQ5OjAxICI7MjM2Mw=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjEwOjAwOjAzICI7MTsyNDUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="j, soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <for variable="j" start="1" end="100" direction="inc" step="1">
+                <assign variable="soma" expression="soma+j"/>
+            </for>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
