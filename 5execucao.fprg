@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 08:50:20 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA4OjQyOjUxICI7MjM2MA=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA4OjUwOjIwICI7MTsyNDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j, numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="numero &amp; &quot;x&quot; &amp; i &amp;&quot;=&quot; &amp; numero*i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
